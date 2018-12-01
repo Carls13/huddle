@@ -1,0 +1,15 @@
+.statimg{
+	width: 10%;
+	position: relative;
+	left: 220px;
+	top: 60px;
+}
+
+.statNumber{
+	font-size: 6rem;
+}
+
+.statDesc{
+	position: relative;
+	bottom: 50px;
+}
