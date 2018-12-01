@@ -4,8 +4,8 @@ self.__precacheManifest = [
     "url": "/huddle/static/media/icon-communities.4918e149.svg"
   },
   {
-    "revision": "08344edc13a780a96494",
-    "url": "/huddle/static/css/main.1b15fb54.chunk.css"
+    "revision": "8a313f81731e00d79fa7",
+    "url": "/huddle/static/css/main.7e3aa536.chunk.css"
   },
   {
     "revision": "775fc190a337d0bf134480fad7cd1586",
@@ -40,8 +40,8 @@ self.__precacheManifest = [
     "url": "/huddle/static/media/icon-messages.1203b299.svg"
   },
   {
-    "revision": "08344edc13a780a96494",
-    "url": "/huddle/static/js/main.08344edc.chunk.js"
+    "revision": "8a313f81731e00d79fa7",
+    "url": "/huddle/static/js/main.8a313f81.chunk.js"
   },
   {
     "revision": "88090acec5276438b135a468364edf12",
@@ -76,7 +76,7 @@ self.__precacheManifest = [
     "url": "/huddle/static/css/1.d139952c.chunk.css"
   },
   {
-    "revision": "1368711d9be4c4f49668e8a1f35d581d",
+    "revision": "a6120acc462ec642fbe1c378bd0cac13",
     "url": "/huddle/index.html"
   }
 ];
