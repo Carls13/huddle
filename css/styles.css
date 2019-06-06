@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+@font-face {
+  font-family: 'Poppins';
+  src: url('https://fonts.googleapis.com/css?family=Poppins');
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  src: url('https://fonts.googleapis.com/css?family=Open+Sans');
+}
+
+body {
+	margin: auto;
+}
+
+.open-sans{
+	font-family: 'Open Sans';
+}
+
+.poppins{
+	font-family: 'Poppins';
+}
+header{
+	height: 3em;
+}
+
+.pink-button{
+	color: white;
+	background-color: hsl(322, 100%, 66%);
+	border-color: hsl(322, 100%, 66%);
+	border-radius: 80px;
+	padding: .7em 4em .7em 4em;
+}
+
+.white-button{
+	background-color: white;
+	color: hsl(322, 100%, 66%);
+	border-color: hsl(322, 100%, 66%);
+	border-radius: 80px;
+	padding: .7em 4em .7em 4em;
+}
+
+.mockups-img{
+	width: 100%;
+}
+
+.app-section{
+	margin-top: 1px;
+	margin-bottom: 1px;
+}
+
+.flex-column{
+	display: flex;
+	flex-direction: column;
+}
+.stat-img-left{
+	position: relative;
+	font-size: 10px;
+	left: 18em;
+	top: 5em;
+}
+
+.stat-img-right{
+	position: relative;
+	font-size: 10px;
+	left: 15em;
+	top: 5em;
+}
+.stat-description{
+	color: darkgrey;
+}
+.number{
+	font-size: 8em;
+}
+.top-image{
+	width: 100%;
+}
+.marketing-section{
+	background-color: hsl(207, 100%, 98%);
+	height: 100%;
+}
+.marketing-text-block{
+	padding-top: 10em;
+	padding-left: 3em;
+}
+.marketing-img{
+	width: 100%;
+}
+footer{
+	background-color: hsl(192, 100%, 9%);
+	color: white;
+}
+
+.footer-logo {
+  width: 70%;
+  margin: 1rem 0;
+}
+.footer-logo path {
+  fill: white;
+}
+
+.inline-contact{
+	display: inline-flex;
+}
