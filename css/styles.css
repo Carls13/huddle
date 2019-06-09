@@ -12,9 +12,10 @@
   src: url('https://fonts.googleapis.com/css?family=Open+Sans');
 }
 
-body {
-	margin: auto;
-}
+* {
+    margin: 0;
+    padding: 0;
+} 
 
 .open-sans{
 	font-family: 'Open Sans';
@@ -78,9 +79,17 @@ header{
 .top-image{
 	width: 100%;
 }
+.bottom-image{
+	width: 100%;
+	margin-bottom: 5em;
+}
 .marketing-section{
 	background-color: hsl(207, 100%, 98%);
 	height: 100%;
+}
+.marketing-uncolored-section{
+	margin-bottom: 5em;
+
 }
 .marketing-text-block{
 	padding-top: 10em;
@@ -88,6 +97,9 @@ header{
 }
 .marketing-img{
 	width: 100%;
+}
+.call-to-action{
+	margin-bottom: 5em;
 }
 footer{
 	background-color: hsl(192, 100%, 9%);
