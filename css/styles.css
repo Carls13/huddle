@@ -17,15 +17,20 @@
     padding: 0;
 } 
 
+
 .open-sans{
 	font-family: 'Open Sans';
 }
 
 .poppins{
+	font-size: 1.5em;
 	font-family: 'Poppins';
 }
 header{
 	height: 3em;
+}
+.header-logo{
+	max-width: 40%;
 }
 
 .pink-button{
@@ -33,7 +38,8 @@ header{
 	background-color: hsl(322, 100%, 66%);
 	border-color: hsl(322, 100%, 66%);
 	border-radius: 80px;
-	padding: .7em 4em .7em 4em;
+	padding: .7em 1em .7em 1em;
+	font-size: .7em;
 }
 
 .white-button{
@@ -41,11 +47,23 @@ header{
 	color: hsl(322, 100%, 66%);
 	border-color: hsl(322, 100%, 66%);
 	border-radius: 80px;
-	padding: .7em 4em .7em 4em;
+	padding: .7em 1em .7em 1em;
 }
 
 .mockups-img{
 	width: 100%;
+}
+
+.my-col{
+	float: left;
+	width: 50%;
+}
+.my-footer-col{
+	float: left;
+	width: 50%;
+	background-color: hsl(192, 100%, 9%);
+	color: white;
+	height: auto;
 }
 
 .app-section{
@@ -56,8 +74,10 @@ header{
 .flex-column{
 	display: flex;
 	flex-direction: column;
+	padding: 0;
 }
 .stat-img-left{
+	padding: 0;
 	position: relative;
 	font-size: 10px;
 	left: 18em;
@@ -65,6 +85,7 @@ header{
 }
 
 .stat-img-right{
+	padding: 0;
 	position: relative;
 	font-size: 10px;
 	left: 15em;
@@ -76,12 +97,18 @@ header{
 .number{
 	font-size: 8em;
 }
-.top-image{
+.top-desktop-image{
 	width: 100%;
 }
-.bottom-image{
+.bottom-desktop-image{
 	width: 100%;
 	margin-bottom: 5em;
+}
+.top-mobile-image{
+	display: none;
+}
+.bottom-mobile-image{
+	display: none;
 }
 .marketing-section{
 	background-color: hsl(207, 100%, 98%);
@@ -94,18 +121,24 @@ header{
 .marketing-text-block{
 	padding-top: 10em;
 	padding-left: 3em;
+	padding-right: 3em;
 }
-.marketing-img{
-	width: 100%;
+.marketing-img{ 
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	height: 80%;
+	width: 80%;
 }
 .call-to-action{
 	margin-bottom: 5em;
 }
+.my-row{
+	display: inline-flex;
+}
 footer{
 	background-color: hsl(192, 100%, 9%);
-	color: white;
 }
-
 .footer-logo {
   width: 70%;
   margin: 1rem 0;
@@ -116,4 +149,45 @@ footer{
 
 .inline-contact{
 	display: inline-flex;
+}
+
+
+@media screen and (max-width: 400px){
+.my-col{
+	width: 100%;
+}
+.number{
+	font-size: 6.5em;
+}
+.my-footer-col{
+	width: 100%;
+}
+.my-row{
+	display: flex;
+	flex-direction: column;
+}
+.marketing-text-block{
+	padding-top: 3em;
+}
+.top-mobile-image{
+	display: block;
+	width: 100%;
+}
+.bottom-mobile-image{
+	display: block;
+	width: 100%;
+	margin-bottom: 5em;
+}	
+.top-desktop-image{
+	display: none;
+}
+.bottom-desktop-image{
+	display: none;
+}
+
+.mockups-img{
+	padding-left: 1em;
+	padding-right: 1em;
+	width: 100%;
+}
 }
