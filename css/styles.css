@@ -1,0 +1,263 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+@font-face {
+  font-family: 'Poppins';
+  src: url('https://fonts.googleapis.com/css?family=Poppins');
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  src: url('https://fonts.googleapis.com/css?family=Open+Sans');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+} 
+
+
+.open-sans{
+	font-family: 'Open Sans';
+}
+
+.poppins{
+	font-size: 1.5em;
+	font-family: 'Poppins';
+}
+header{
+	height: 3em;
+}
+.header-logo{
+	max-width: 40%;
+}
+
+.pink-button{
+	color: white;
+	background-color: hsl(322, 100%, 66%);
+	border-color: hsl(322, 100%, 66%);
+	border-radius: 80px;
+	padding: .7em 1em .7em 1em;
+	font-size: .7em;
+}
+
+.white-button{
+	background-color: white;
+	color: hsl(322, 100%, 66%);
+	border-color: hsl(322, 100%, 66%);
+	border-radius: 80px;
+	padding: .7em 1em .7em 1em;
+}
+
+.mockups-img{
+	width: 100%;
+}
+
+.my-col{
+	float: left;
+	width: 50%;
+}
+.my-footer-col{
+	float: left;
+	width: 50%;
+	background-color: hsl(192, 100%, 9%);
+	color: white;
+	height: auto;
+}
+
+.app-section{
+	margin-top: 1px;
+	margin-bottom: 1px;
+}
+
+.flex-column{
+	display: flex;
+	flex-direction: column;
+	padding: 0;
+}
+.stat-img-left{
+	padding: 0;
+	position: relative;
+	font-size: 10px;
+	left: 16em;
+	top: 5em;
+}
+
+.stat-img-right{
+	padding: 0;
+	position: relative;
+	font-size: 10px;
+	left: 13em;
+	top: 5em;
+}
+.stat-description{
+	color: darkgrey;
+}
+.number{
+	font-size: 8em;
+}
+.top-desktop-image{
+	width: 100%;
+}
+.bottom-desktop-image{
+	width: 100%;
+	margin-bottom: 5em;
+}
+.top-mobile-image{
+	display: none;
+}
+.bottom-mobile-image{
+	display: none;
+}
+
+.marketing-mobile{
+	display: none;
+} 
+.footer-mobile{
+	display: none;
+} 
+
+.marketing-section{
+	background-color: hsl(207, 100%, 98%);
+	height: 100%;
+}
+.marketing-uncolored-section{
+	margin-bottom: 5em;
+
+}
+.marketing-text-block{
+	padding-top: 10em;
+	padding-left: 3em;
+	padding-right: 3em;
+}
+.marketing-img{ 
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	height: 80%;
+	width: 80%;
+}
+.call-to-action{
+	margin-bottom: 5em;
+}
+.my-row{
+	display: inline-flex;
+}
+.my-footer-row{
+	display: inline-flex;
+}
+footer{
+	background-color: hsl(192, 100%, 9%);
+}
+.footer-logo {
+  width: 80%;
+  margin: 1rem 0;
+}
+.footer-logo path {
+  fill: white;
+}
+
+.inline-contact{
+	display: inline-flex;
+}
+
+
+@media screen and (max-width: 680px){
+.my-col{
+	width: 100%;
+}
+.number{
+	font-size: 6.5em;
+}
+
+.my-row{
+	display: flex;
+	flex-direction: column;
+}
+.marketing-text-block{
+	padding-top: 3em;
+}
+.top-mobile-image{
+	display: block;
+	width: 100%;
+}
+.bottom-mobile-image{
+	display: block;
+	width: 100%;
+	margin-bottom: 5em;
+}	
+.top-desktop-image{
+	display: none;
+}
+.bottom-desktop-image{
+	display: none;
+}
+
+.mockups-img{
+	padding-left: 1em;
+	padding-right: 1em;
+	width: 100%;
+}
+
+.marketing-desktop{
+	display: none;
+}
+
+.marketing-mobile{
+	display: block;
+}
+
+.stat-img-left{
+	padding: 0;
+	position: relative;
+	font-size: 15px;
+	left: 13em;
+	top: 2.5em;
+}
+
+.stat-img-right{
+	padding: 0;
+	position: relative;
+	font-size: 15px;
+	left: 12em;
+	top: 2.5em;
+}
+
+}
+
+@media screen and (max-width: 375px){
+.my-footer-row{
+	display: flex;
+	flex-direction: column;
+}
+.my-footer-col{
+	width: 100%;
+}
+.footer-desktop{
+	display: none;
+}
+
+.footer-mobile{
+	margin-top: 2em;
+	display: block;
+}
+.stat-img-left{
+	padding: 0;
+	position: relative;
+	font-size: 15px;
+	left: 4em;
+	top: 3em;
+}
+
+.stat-img-right{
+	padding: 0;
+	position: relative;
+	font-size: 15px;
+	left: 2.5em;
+	top: 3em;
+}
+
+}
+
+
