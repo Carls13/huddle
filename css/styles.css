@@ -80,7 +80,7 @@ header{
 	padding: 0;
 	position: relative;
 	font-size: 10px;
-	left: 18em;
+	left: 16em;
 	top: 5em;
 }
 
@@ -88,7 +88,7 @@ header{
 	padding: 0;
 	position: relative;
 	font-size: 10px;
-	left: 15em;
+	left: 13em;
 	top: 5em;
 }
 .stat-description{
@@ -110,6 +110,14 @@ header{
 .bottom-mobile-image{
 	display: none;
 }
+
+.marketing-mobile{
+	display: none;
+} 
+.footer-mobile{
+	display: none;
+} 
+
 .marketing-section{
 	background-color: hsl(207, 100%, 98%);
 	height: 100%;
@@ -136,11 +144,14 @@ header{
 .my-row{
 	display: inline-flex;
 }
+.my-footer-row{
+	display: inline-flex;
+}
 footer{
 	background-color: hsl(192, 100%, 9%);
 }
 .footer-logo {
-  width: 70%;
+  width: 80%;
   margin: 1rem 0;
 }
 .footer-logo path {
@@ -152,16 +163,14 @@ footer{
 }
 
 
-@media screen and (max-width: 400px){
+@media screen and (max-width: 680px){
 .my-col{
 	width: 100%;
 }
 .number{
 	font-size: 6.5em;
 }
-.my-footer-col{
-	width: 100%;
-}
+
 .my-row{
 	display: flex;
 	flex-direction: column;
@@ -190,4 +199,65 @@ footer{
 	padding-right: 1em;
 	width: 100%;
 }
+
+.marketing-desktop{
+	display: none;
 }
+
+.marketing-mobile{
+	display: block;
+}
+
+.stat-img-left{
+	padding: 0;
+	position: relative;
+	font-size: 15px;
+	left: 13em;
+	top: 2.5em;
+}
+
+.stat-img-right{
+	padding: 0;
+	position: relative;
+	font-size: 15px;
+	left: 12em;
+	top: 2.5em;
+}
+
+}
+
+@media screen and (max-width: 375px){
+.my-footer-row{
+	display: flex;
+	flex-direction: column;
+}
+.my-footer-col{
+	width: 100%;
+}
+.footer-desktop{
+	display: none;
+}
+
+.footer-mobile{
+	margin-top: 2em;
+	display: block;
+}
+.stat-img-left{
+	padding: 0;
+	position: relative;
+	font-size: 15px;
+	left: 4em;
+	top: 3em;
+}
+
+.stat-img-right{
+	padding: 0;
+	position: relative;
+	font-size: 15px;
+	left: 2.5em;
+	top: 3em;
+}
+
+}
+
+
